@@ -4,21 +4,10 @@ layout: default
 
 {% include site-header.html %}
 
-<main class="main  container">
+<main class="main container">
 
-	<div class="content">
-
-    <article class="article  article--page  typeset">
-
-			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-			<h1>{{ collectiondata.title }}</h1>
-
-			{{ collectiondata.description | markdownify }}
-
-    </article>
-
-    {% include post-list.html %}
-
+	<div>
+		<h1>Fa la la</h1>
   </div>
 
 </main>

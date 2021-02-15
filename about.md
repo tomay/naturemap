@@ -1,10 +1,11 @@
 ---
 title: About Tom
+nav_order: 2
 ---
 
 A really basic theme for Jekyll, using the official Jekyll theme implementation.z
 
-- [Fork on GitHub](https://github.com/daviddarnes/garth)
+- [Fork it on GitHub](https://github.com/daviddarnes/garth)
 - [Install Garth](https://github.com/daviddarnes/garth#installation)
 
 

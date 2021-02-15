@@ -8,7 +8,6 @@
 # 7. Files excluded from Jekyll builds
 
 
-
 # 1. Installed Gems
 plugins:
 - jekyll-paginate

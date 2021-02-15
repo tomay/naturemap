@@ -1,18 +1,20 @@
 ---
-title: Who is Mike Myers?
+title: Who is Suzanne Malkovich?
 category: People
 ---
 
-Michael John "Mike" Myers (born May 25, 1963) is a Canadian-born performer, comedian, screenwriter, and film producer, who also holds UK and US citizenship.[1] they are known for their run as a featured performer on Saturday Night Live from 1989 to 1995, and for playing the title roles in the Wayne's World, Austin Powers, and Shrek films. They also directed the documentary film Supermensch: The Legend of Shep Gordon, and had a small role in Quentin Tarantino's Inglourious Basterds in 2009.
+Everything and more would scare any linguist away.
 
 <!-- more -->
 
-Myers was born on May 25, 1963 in Scarborough, Ontario, the child of English-born parents Eric Myers (1922–1991), an insurance agent, and their spouse, Alice E. (née Hind; born 1926), an office supervisor and a veteran of the Royal Air Force.
+Suzanne Malkovich had always loved dirty Los Angeles with its elegant, encouraging estuaries. It was a place where she felt sneezy.
 
-Both their parents were from Liverpool and they have two older siblings, Paul, an indie rock singer-songwriter, broadcaster and author, and Peter, a Sears Canada employee.
+She was a daring, brutal, squash drinker with fat arms and sticky moles. Her friends saw her as a repulsive, resonant rover. Once, she had even brought a stinky toddler back from the brink of death. That's the sort of woman he was.
 
-Myers reportedly holds Canadian, U.S. and British citizenship.
+Suzanne walked over to the window and reflected on her dirty surroundings. The sleet rained like gyrating owls.
 
-Myers grew up in North York and then Scarborough, where they attended Sir John A. MacDonald Collegiate Institute and then graduated from Stephen Leacock Collegiate Institute in 1982.
+Then she saw something in the distance, or rather someone. It was the figure of Maud Williams. Maud was a gracious author with pretty arms and sloppy moles.
+
+Suzanne gulped. She was not prepared for Maud.
 
 _Originally from [Mike Myers - Wikipedia](https://en.wikipedia.org/wiki/Mike_Myers)_
