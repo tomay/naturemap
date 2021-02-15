@@ -1,47 +1,37 @@
 # Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
+# 1. Installed Gems
+# 2. Gem settings
+# 3. Jekyll settings
+# 4. Collections
+# 5. Jekyll collections settings
+# 6. Site settings
+# 7. Files excluded from Jekyll builds
 
-# 1. Files excluded from Jekyll builds
-exclude:
-- README.md
-- CODE_OF_CONDUCT.md
-- CONTRIBUTING.md
-- screenshot.png
-- LICENSE
-- CNAME
-- Gemfile
-- Gemfile.lock
-- garth-jekyll-theme.gemspec
 
-# 2. Installed Gems
+
+# 1. Installed Gems
 plugins:
 - jekyll-paginate
 
-# 3. Gem settings
+# 2. Gem settings
 paginate: 2 # jekyll-paginate > items per page
 paginate_path: page:num # jekyll-paginate > blog page
 
-# 4. Jekyll settings
+# 3. Jekyll settings
 sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+timezone: America/Los_Angeles # Timezone for blog posts and alike
 
-# 5. Collections
+# 4. Collections
 collections:
   posts:
     title: Blog # Needed for Siteleaf
     output: true
-    description: "This is merely a demo, find out more [about Garth](about)" # The post list page content
+    description: "This is merely a demo, find out more [about Tom](about)" # The post list page content
 
-# 6. Jekyll collections settings
+# 5. Jekyll collections settings
 defaults:
   -
     scope:
@@ -56,12 +46,32 @@ defaults:
     values:
       layout: post # Default layout
 
-# 7. Site settings
+# 6. Site settings
 encoding: utf-8 # Make sure the encoding is right
-title: "Garth" # Site name or title
+title: "Naturemap" # Site name or title
 logo: "/assets/logo.svg" # Site logo
 # favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
 description: "A really basic theme for Jekyll, using the official Jekyll theme implementation" # Site description and default description
-url: "https://garth.darn.es" # Site url
+url: "https://www.naturemap.org" # Site url
 baseurl: ""
-lang: en-GB
+lang: en-US
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- CNAME
+- .jekyll-cache

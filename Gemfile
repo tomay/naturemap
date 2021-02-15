@@ -1,2 +1,6 @@
 source "https://rubygems.org"
-gemspec
+
+# https://github.com/daviddarnes/garth#installation
+gem "garth-jekyll-theme"
+
+gem "jekyll-include-cache", group: :jekyll_plugins

@@ -1,5 +1,5 @@
 ---
-title: What was Wayne's World?
+title: What wasz Waynez World?
 category: General
 ---
 

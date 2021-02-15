@@ -1,37 +1,11 @@
-# [Garth](https://garth.darn.es/)
-[![Gem Version](https://badge.fury.io/rb/garth-jekyll-theme.svg)](https://badge.fury.io/rb/garth-jekyll-theme)
-
-🥁 A really basic theme for Jekyll, using the official Jekyll theme implementation.
-
-[<img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" width="217"/>](https://buymeacoffee.com/daviddarnes#support)
-
-![Screenshot](https://raw.githubusercontent.com/daviddarnes/garth/master/screenshot.png)
-
-## Contents
-- [Installation](#installation)
-- [Customising](#customising)
-- [Site settings](#site-settings)
-- [Page layouts](#page-layouts)
-- [Credits](#credits)
-
-## Installation
-
-### Quick setup
-
-To give you a running start I've put together some starter kits that you can download, fork or even deploy immediately:
-
-- Vanilla Jekyll starter kit:  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/garth-kit)
-- Stackbit starter kit:  
-  [![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/daviddarnes/garth-stackbit-kit)
-- GitHub Pages with remote theme kit - **[Download kit](https://github.com/daviddarnes/garth-kit/archive/remote-theme.zip)**
+# Naturemap
 
 ### As a Jekyll theme
 
 1. Add `gem "garth-jekyll-theme"` to your `Gemfile` to add the theme as a dependancy
 2. Run the command `bundle install` in the root of project to install the theme and its dependancies
 3. Add `theme: garth-jekyll-theme` to your `_config.yml` file to set the site theme
-4. Run `bundle exec jekyll serve` to build and serve your site
+4. Run `bundle exec jekyll serve --livereload` to build and serve your site
 5. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options
 
 ### As a GitHub Pages remote theme
