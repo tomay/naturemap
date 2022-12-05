@@ -1,0 +1,49 @@
+/* style.css */
+
+html, body { 
+  height: 100%;
+}
+
+body {
+  margin: 0; padding: 0;
+  color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  // overflow: hidden;
+}
+
+
+.content {
+  flex: 1 0 auto;
+}
+
+main {
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 40rem;
+}
+
+footer {
+  color: #fff;
+  background: #333;
+  margin-bottom: 0;
+  flex-shrink: 0;
+  padding: 1rem;
+  margin: 0;
+  max-width: 100%;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+}
+
+// .container {
+//   max-width: 1050px;
+//   width: 90%;
+//   margin: auto;
+// }
+
