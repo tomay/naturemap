@@ -12,7 +12,8 @@ const config = {
 			assets: 'docs',
 			fallback: null,
 			precompress: false,
-			strict: true
+			strict: true,
+			paths: "/naturemap",
 		})
 	},
 
