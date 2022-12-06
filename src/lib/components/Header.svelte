@@ -62,7 +62,7 @@
   <style>
 
     header {
-      background: #ffe095;
+      background: #0ebba94a;
     }
 
     img {
@@ -82,8 +82,9 @@
     .navbar .nav-container a {
       text-decoration: none;
       color: #0e2431;
-      font-weight: 500;
-      font-size: 1.2rem;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 28px;
       padding: 0.7rem;
     }
 
@@ -145,7 +146,7 @@
     }
 
     .navbar .menu-items {
-      background: yellow;
+      background: #fff500;
       padding-top: 120px;
       box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
       height: calc(100vh - 120px);

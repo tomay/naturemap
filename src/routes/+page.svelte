@@ -1,2 +1,2 @@
 <h1>Welcome to Naturemap</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<p>Some other words and maybe a link to <a href="https://kit.svelte.dev">something important</a> that is sure to be super relevant</p>
