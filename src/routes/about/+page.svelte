@@ -5,16 +5,16 @@
 
 <h2>Some things I've done</h2>
 <ul>
-    <li>Pioneered the use of drones for forest monitoring in Madagascar (2011)</li>
-    <li>Digitized paper maps of South American bird ranges hand drawn by the great ornithologist Robert S. Ridgely</li>
+    <li>blah blah blah blah</li>
+    <li>blah blah blah blahblah blah</li>
 </ul>
 
 
 <h2>Some things I'm doing</h2>
 <ul>
-    <li>Volunteer with Cascadia Wildlands</li>
-    <li>Riding bicycles</li>
-    <li>Playing music, especially percussion</li>
+    <li>Blah blah blah</li>
+    <li>blah blah</li>
+    <li>blah blah and especially blah</li>
 </ul>
 
 <h2>Some things I won't do</h2>
