@@ -11,7 +11,7 @@
     Instead of an extremely long boring list, I think this should be merged into a paragraph, and then link to example projects
 </p>
 
-<h2>Frontend web tech</h2>
+<h2>Frontend</h2>
 
 <ol>
     <li>JavaScript</li>
@@ -22,7 +22,7 @@
     <li>Svelte</li>
 </ol>
 
-<h2>Web frameworks</h2>
+<h2>Frameworks</h2>
 
 <ol>
     <li>Django</li>
@@ -30,11 +30,14 @@
     <li>WordPress</li>
 </ol>
 
-<h2>Map tech front and backend</h2>
+<h2>Maps</h2>
 
 <ol>
     <li>Mapserver</li>
     <li>Leaflet</li>
+    <li>QGIS</li>
+    <li>ESRI</li>
+    <li>Mapbox</li>
 </ol>
 
 <h2>Scripting</h2>
