@@ -12,20 +12,6 @@
         document.querySelector('.nav-container input[type="checkbox"]').checked = false;
       });
     }
-
-    // // menu - on click, make menu-items visible
-    // const input_menu = document.querySelector('input.checkbox');
-    // const menu_items = document.querySelector('div.menu-items');
-    // input_menu.addEventListener('click', function(e) {
-    //   if (this.checked) {
-    //     console.log('checked');
-    //     menu_items.style.display = 'flex';
-    //   } else {
-    //     console.log('Not checked');
-    //     menu_items.style.display = 'none';
-    //   }
-    // });
-
   });  
 
 </script>
@@ -81,11 +67,12 @@
 
     .navbar .nav-container a {
       text-decoration: none;
+      border-bottom: none;
       color: #0e2431;
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       font-size: 28px;
-      padding: 0.7rem;
+      display: inline-block;
     }
 
     .navbar .nav-container a:hover{
@@ -164,6 +151,12 @@
       margin-bottom: 1.2rem;
       font-size: 1.5rem;
       font-weight: 500;
+    }
+
+    .navbar .menu-items li a:hover {
+      /* border-bottom: 1px solid #000; */
+      box-shadow: 0px -7px 0px red inset;
+      background: #fff;
     }
 
     .logo {

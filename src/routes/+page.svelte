@@ -1,2 +1,7 @@
-<h1>Welcome to Naturemap</h1>
-<p>Some other words and maybe a link to <a href="https://kit.svelte.dev">something important</a> that is sure to be super relevant</p>
+<h1>Home</h1>
+
+<p>Hi! 👋</p>
+
+<p>I'm Tom and this is my website. I am a web developer, geographer, spatial data scientist, and lifelong nature nerd.</p>
+
+<p>Read more <a href="/about">about me</a>, <a href="/work">my work</a>, or check out <a href="/blog">my blog</a>.</p>

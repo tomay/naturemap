@@ -1,4 +1,5 @@
 <!-- contact/+page.svelte -->
-<h1>Get in touch</h1>
+<h1>Contact</h1>
 
-<p><a href="mailto:me@my.tld">Email me!</a></p>
+<p>Get in touch</p>
+<p><a href="mailto:chorographics@gmail.com">Email me!</a></p>
