@@ -1,57 +1,38 @@
 <!-- work/+page.svelte -->
 <h1>Work</h1>
 
-<p>This is the <b>work</b> page.</p>
+<p>
+    My main interests are maps, data visualization, web development and programming.  
+</p>
+
+<h2 class="fancy">Frontend</h2>
 
 <p>
-    I've worked with lots of things. See below for tech details
+    Frontend languages and tech I've worked with includes HTML/JavaScript/CSS/SASS, React, jQuery, Backbone, Svelte. I prefer the native over the monolithic - I'll hack away at React if I have to, but for most of my work, vanilla ES6 modules are more than enough.
 </p>
 
 <p>
-    Instead of an extremely long boring list, I think this should be merged into a paragraph, and then link to example projects
+    This is one of <a href="https://globalenergymonitor.org/projects/global-coal-project-finance-tracker/tracker-map/">my favorite frontend examples that I worked on recently</a>. A challenging mix of Leaflet/D3 and dataviz using a rewritten spatial Sankey library <a href="https://github.com/geodesign/spatialsankey">developed elsewhere</a>, for the to help understand how international finance flows shape climate impact. 
 </p>
 
-<h2>Frontend</h2>
+<h2 class="fancy">Backend</h2>
 
-<ol>
-    <li>JavaScript</li>
-    <li>CSS/SCSS</li>
-    <li>React</li>
-    <li>jQuery</li>
-    <li>Backbone</li>
-    <li>Svelte</li>
-</ol>
+<p>
+    Backend languages and frameworks I've worked with include Python/Django, PHP/WordPress, Ruby/Rails. Python and Django are by far my favorites, but I do love Ruby's syntax. For open source spatial data work, the Python ecosystem is hard to beat, and tools like pip and Conda are great for repeatability and working across platforms/teams. 
+</p>
 
-<h2>Frameworks</h2>
+<p>
+    This is one of <a href="https://www.conservationeffectiveness.org/">my favorite backend examples that I've worked on</a>. We use D3 to visualize evidence for the effectiveness of various popular conservation strategies. An authenticated backend allows the client to edit existing evidence and create new strategies on the fly, and serves as a basic CMS, without any support from me.  
+</p>
 
-<ol>
-    <li>Django</li>
-    <li>Rails</li>
-    <li>WordPress</li>
-</ol>
+<h2 class="fancy">Mapping</h2>
 
-<h2>Maps</h2>
-
-<ol>
-    <li>Mapserver</li>
-    <li>Leaflet</li>
-    <li>QGIS</li>
-    <li>ESRI</li>
-    <li>Mapbox</li>
-</ol>
-
-<h2>Scripting</h2>
-
-<ol>
-    <li>Python</li>
-    <li>Ruby</li>
-</ol>
+<p>
+    Web mapping tech skills include Leaflet/Mapbox, a bit of OpenLayers, GDAL/OGR and the Python geo-ecosystem GeoPandas et al. I also work with Desktop tools like QGIS, and ESRI if I have to.   
+</p>
 
 <h2>Build</h2>
 
-<ol>
-    <li>Webpack</li>
-    <li>Vite</li>
-    <li>GH Actions</li>
-</ol>
-
+<p>
+    In terms of build and devops, I've worked with Docker, Webpack, and Vite for local development, and I've scratched the surface of all that AWS offers. A lot more to learn here.  
+</p>

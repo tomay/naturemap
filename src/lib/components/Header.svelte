@@ -153,6 +153,10 @@
       font-weight: 500;
     }
 
+    .navbar .menu-items li a {
+      padding: 7px 10px 10px;
+    }
+
     .navbar .menu-items li a:hover {
       /* border-bottom: 1px solid #000; */
       box-shadow: 0px -7px 0px red inset;
