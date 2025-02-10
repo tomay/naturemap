@@ -31,8 +31,8 @@
     Web mapping tech skills include Leaflet/Mapbox, a bit of OpenLayers, GDAL/OGR and the Python geo-ecosystem GeoPandas et al. I also work with Desktop tools like QGIS, and ESRI if I have to.   
 </p>
 
-<h2>Build</h2>
+<h2 class="fancy">Build</h2>
 
 <p>
-    In terms of build and devops, I've worked with Docker, Webpack, and Vite for local development, and I've scratched the surface of all that AWS offers. A lot more to learn here.  
+    In terms of build and devops, I've worked with Docker, Webpack, Parcel, and Vite for local development of frontend and full stack Django applications. I have scratched the surface of all that AWS offers. A lot more to learn here.  
 </p>

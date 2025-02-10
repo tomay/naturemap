@@ -36,6 +36,7 @@
           <li><a href="/about">about</a></li>
           <li><a href="/blog">blog</a></li>
           <li><a href="/work">work</a></li>
+          <li><a href="/publications">publications</a></li>
           <li><a href="/contact">contact</a></li>
         </div>
       </div>
