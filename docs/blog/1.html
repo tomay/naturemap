@@ -17,17 +17,17 @@
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 
 		<meta http-equiv="content-security-policy" content="">
-		<link href="../_app/immutable/assets/_layout-a0d34997.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-f1d83317.js">
+		<link href="../_app/immutable/assets/_layout-00fce484.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-d71724b5.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index-edd1e24c.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-07ee897a.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-5ce09bba.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-b21cceae.js">
 		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-1320e30b.js">
 		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-fb8e19e2.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-6d08a489.js">
 		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-e4cbc256.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-1dd014e1.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page-6b496771.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-3579f609.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-73295fe4.js">
 			
 	</head>
 	<body>
@@ -59,20 +59,31 @@
 <main class="content">
 
   
-  <article><h1>Post One</h1>
-    <p>Published: 2021-12-14</p>
+  <article><h1>Accessible websites at 400% browser zoom</h1>
+    <p>Published: December 12, 2024</p>
     
 
     
-<article><p>Hello, I am <em>Post One.</em></p>
-<p>Check <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/dist/index.html" target="_blank">this out mofobudiki palldaourisznie</a></p>
-<p><strong>Nice to meet you!</strong></p></article></article></main>
+<article><h3>Reflow</h3>
+<p>I recently became aware of two WCAG Guidelines that sound similar, but are fundamentally different (and, to different degrees, challenging to achieve).</p>
+<p>The first of these is the <a href="https://www.w3.org/TR/WCAG21/#reflow" rel="nofollow">“Reflow”</a> requirement, namely that “content can be enlarged without increasing line length.” </p>
+<p>You might be wondering, as I did, what does that even mean? </p>
+<p>Perhaps the following criteria might help (or not):</p>
+<ul><li>Vertical scrolling content at a width equivalent to 320 CSS pixels</li>
+<li>Horizontal scrolling content at a height equivalent to 256 CSS pixels.</li></ul>
+<p>Okay, well, what does that mean? Again, ever helpful, WCAG allows</p>
+<blockquote>320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For web content which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom</blockquote>
+<p>Long and short seems to be that if you zoom your browser to 400%, text should “reflow”, that is, not require scrolling in more than one dimension, and not break in ways that reduce (or remove) legibility. </p>
+<p>The <a href="https://www.w3.org/WAI/WCAG21/Understanding/reflow.html" rel="nofollow">“Understanding”</a> page for this criterion is helpful. E.g. “Spatial relationships of content may change when users zoom, but all information and functionality should continue to be available.”</p>
+<h3>How to comply</h3>
+<p>It turns out that in many cases, if the website is built to be responsive at 100% zoom, it will also be responsive at 400% zoom. Increasing zoom kind of behaves as if your screen gets progressively smaller, and responsive breakpoints, being breakpoints, kick in and “automatically” reflow the content. Avoid fixed-width elements, and overly complex, overlapping arrangements and you’re probably fine.</p>
+<p>But that alone won’t help with 2x font-size increases. Read more about that in a future post. </p></article></article></main>
 
 <footer>Hello, I&#39;m the footer  © <span></span></footer>
 
 
-		<script type="module" data-sveltekit-hydrate="a41bb8">
-			import { start } from "../_app/immutable/start-f1d83317.js";
+		<script type="module" data-sveltekit-hydrate="xmpvth">
+			import { start } from "../_app/immutable/start-d71724b5.js";
 
 			start({
 				env: {},
@@ -86,7 +97,7 @@
 					form: null
 				},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="a41bb8"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="xmpvth"]').parentNode,
 				trailing_slash: "never"
 			});
 		</script>
