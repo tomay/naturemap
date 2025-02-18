@@ -37,7 +37,7 @@
   }
 
   .smaller-font {
-    font-size: 16px;
+    font-size: 0.8rem;
   }
 
   li:not(.no-margin) {

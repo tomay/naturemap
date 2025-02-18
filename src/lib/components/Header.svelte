@@ -53,8 +53,8 @@
     }
 
     img {
-      width: 68px;
-      height: 68px;
+      width: 3.4rem;
+      height: 3.4rem;
     }
 
     .navbar {
@@ -83,7 +83,7 @@
     .nav-container {
       display: block;
       position: relative;
-      height: 80px;
+      height: 4rem;
     }
 
     .nav-container .checkbox {
@@ -100,11 +100,11 @@
 
     .nav-container .hamburger-lines {
       display: block;
-      height: 26px;
-      width: 32px;
+      height: 1.3rem;
+      width: 1.6rem;
       position: absolute;
-      top: 27px;
-      left: 20px;
+      top: 1.35rem;
+      left: 1rem;
       z-index: 2;
       display: flex;
       flex-direction: column;
@@ -135,15 +135,15 @@
 
     .navbar .menu-items {
       background: #fff500;
-      padding-top: 120px;
+      padding-top: 6rem;
       box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-      height: calc(100vh - 120px);
+      height: calc(100vh - 6rem);
       width: 100%;
       transform: translateX(-150%);
       display: flex;
       flex-direction: column;
-      margin-left: -40px;
-      padding-left: 40px;
+      margin-left: -2rem;
+      padding-left: 2rem;
       transition: transform 0.5s ease-in-out;
       text-align: center;
     }
@@ -155,7 +155,7 @@
     }
 
     .navbar .menu-items li a {
-      padding: 7px 10px 10px;
+      padding: 0.35rem 0.5rem 0.5rem;
     }
 
     .navbar .menu-items li a:hover {
@@ -166,8 +166,8 @@
 
     .logo {
       position: absolute;
-      top: 5px;
-      right: 15px;
+      top: 0.25rem;
+      right: 0.75rem;
       font-size: 1.2rem;
       color: #0e2431;
     }
