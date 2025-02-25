@@ -2,7 +2,7 @@
 <h1>Work</h1>
 
 <p>
-    My main interests are maps, data visualization, web development and programming.  
+    Work-wise, my main interests are maps, data visualization, web development and programming.  
 </p>
 
 <h2 class="fancy">Frontend</h2>
@@ -25,10 +25,14 @@
     This is one of <a href="https://www.conservationeffectiveness.org/">my favorite backend examples that I've worked on</a>. We use D3 to visualize evidence for the effectiveness of various popular conservation strategies. An authenticated backend allows the client to edit existing evidence and create new strategies on the fly, and serves as a basic CMS, without any support from me.  
 </p>
 
-<h2 class="fancy">Mapping</h2>
+<h2 class="fancy">Mapping APIs and Map Servers</h2>
 
 <p>
-    Web mapping tech skills include Leaflet/Mapbox, a bit of OpenLayers, GDAL/OGR and the Python geo-ecosystem GeoPandas et al. I also work with Desktop tools like QGIS, and ESRI if I have to.   
+    Web mapping tech skills include Leaflet/Mapbox/Maplibre, a bit of OpenLayers, GDAL/OGR and the Python geo-ecosystem GeoPandas et al. For backend WMS servers, we typically work with Mapserver/Apache. I also work with Desktop tools like QGIS, and ESRI if I have to.
+</p>
+    
+<p>
+    Oh, and Geoserver has my attention again. We are likely recommending GeoServer to a client who wants "self service" updates. The GeoServer admin is just about perfect for that. Plus i18n support. Just today I noticed a Gist I wrote 10 years ago about how to install GeoServer on a Digital Ocean droplet (remember those?). What comes around, goes around.   
 </p>
 
 <h2 class="fancy">Build</h2>

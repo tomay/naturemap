@@ -1,6 +1,6 @@
 <!-- src/routes/blog/+page.svelte -->
-<script>
-    export let data
+    <script>
+      export let data
     </script>
     
     <h1>Blog</h1>
