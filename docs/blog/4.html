@@ -62,30 +62,27 @@
 <main class="content">
 
   
-  <article><h1>Accessible websites at 400% browser zoom</h1>
-    <p>Published: December 12, 2024</p>
+  <article><h1>Accessible Maps</h1>
+    <p>Published: February 25, 2025</p>
     
 
     
-<article><h2>Reflow</h2>
-<p>I recently became aware of two WCAG Guidelines that sound similar, but are fundamentally different (and, to different degrees, challenging to achieve).</p>
-<p>The first of these is the <a href="https://www.w3.org/TR/WCAG21/#reflow" rel="nofollow">“Reflow”</a> requirement, namely that “content can be enlarged without increasing line length.” </p>
-<p>You might be wondering, as I did, what does that even mean? </p>
-<p>Perhaps the following criteria might help (or not):</p>
-<ul><li>Vertical scrolling content at a width equivalent to 320 CSS pixels</li>
-<li>Horizontal scrolling content at a height equivalent to 256 CSS pixels.</li></ul>
-<p>Okay, well, what does that mean? Again, ever helpful, WCAG allows</p>
-<blockquote>320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For web content which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom</blockquote>
-<p>Long and short seems to be that if you zoom your browser to 400%, text should “reflow”, that is, not require scrolling in more than one dimension, and not break in ways that reduce (or remove) legibility. </p>
-<p>The <a href="https://www.w3.org/WAI/WCAG21/Understanding/reflow.html" rel="nofollow">“Understanding”</a> page for this criterion is helpful. E.g. “Spatial relationships of content may change when users zoom, but all information and functionality should continue to be available.”</p>
-<h2>How to comply</h2>
-<p>It turns out that in many cases, if the website is built to be responsive at 100% zoom, it will also be responsive at 400% zoom. Increasing zoom kind of behaves as if your screen gets progressively smaller, and responsive breakpoints, being breakpoints, kick in and “automatically” reflow the content. Avoid fixed-width elements, and overly complex, overlapping arrangements and you’re probably fine.</p>
-<p>But that alone won’t help with 2x font-size increases. Read more about that in a future post. </p></article></article></main>
+<article><h2>How can we make interactive maps that are more accessible?</h2>
+<p>Far more to say here than can fit into one post. Maps are hard. Accessible maps are harder. </p>
+<p>The “traditional” approach in general has been to <a href="https://www.w3.org/WAI/tutorials/images/complex/" rel="nofollow">treat them like complex images</a>. This is a start. But that assumes that a map is like a chart, which it is, only in the most reductive of ways. A map is much more than a chart, and an interactive map, even more so. </p>
+<p>There are a number of related, but quite different aspects to this. Here’s a general rollup:</p>
+<ul><li>Color contrast (very hard, maybe impossible for more than 2-3 colors)</li>
+<li>Keyboard navigation, accessibility and focus</li>
+<li>Map caption (ideally dynamic)</li>
+<li>Map description (definitely dynamic)</li></ul>
+<p>We have a few recent examples where we’ve tried to put this all together. Here’s one:
+<a href="https://www.parksforcalifornia.org/communities/" rel="nofollow">https://www.parksforcalifornia.org/communities/</a></p>
+<p>I’ll try to break this down in more detail in future posts.</p></article></article></main>
 
 <footer>Hello, I&#39;m the footer  © <span></span></footer>
 
 
-		<script type="module" data-sveltekit-hydrate="j61wad">
+		<script type="module" data-sveltekit-hydrate="9jj0v1">
 			import { start } from "../_app/immutable/start-fe6c758c.js";
 
 			start({
@@ -94,13 +91,13 @@
 					status: 200,
 					error: null,
 					node_ids: [0, 5],
-					params: {slug:"1"},
+					params: {slug:"4"},
 					routeId: "/blog/[slug]",
 					data: [null,null],
 					form: null
 				},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="j61wad"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="9jj0v1"]').parentNode,
 				trailing_slash: "never"
 			});
 		</script>

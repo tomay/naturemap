@@ -9,23 +9,26 @@
         <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
 
 		<!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 
 		<!-- Google fonts-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 
+		<!-- prismjs theme -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-dark.min.css" integrity="sha512-y6rcKLYkttB9ZUBaz0IsncWFo1VoqISrcMY6J1i6Nb9WB9jRrpll8zjt5e1/naZHyXFoR/1VlH72+2VJ1Uzh7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-366756b1.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-ef9f506e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-edd1e24c.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-69556376.js">
+		<link href="./_app/immutable/assets/_layout-f78a6cd1.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/start-fe6c758c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-61f3cbe5.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-6972f9d0.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper-b21cceae.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-5740d6e4.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-c7caed0b.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-fb8e19e2.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-6d08a489.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/work/_page.svelte-01e8ebb3.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/work/_page.svelte-1237df8a.js">
 			
 	</head>
 	<body>
@@ -57,7 +60,7 @@
 <main class="content">
 <h1>Work</h1>
 
-<p>My main interests are maps, data visualization, web development and programming.  
+<p>Work-wise, my main interests are maps, data visualization, web development and programming.  
 </p>
 
 <h2 class="fancy">Frontend</h2>
@@ -76,9 +79,12 @@
 <p>This is one of <a href="https://www.conservationeffectiveness.org/">my favorite backend examples that I&#39;ve worked on</a>. We use D3 to visualize evidence for the effectiveness of various popular conservation strategies. An authenticated backend allows the client to edit existing evidence and create new strategies on the fly, and serves as a basic CMS, without any support from me.  
 </p>
 
-<h2 class="fancy">Mapping</h2>
+<h2 class="fancy">Mapping APIs and Map Servers</h2>
 
-<p>Web mapping tech skills include Leaflet/Mapbox, a bit of OpenLayers, GDAL/OGR and the Python geo-ecosystem GeoPandas et al. I also work with Desktop tools like QGIS, and ESRI if I have to.   
+<p>Web mapping tech skills include Leaflet/Mapbox/Maplibre, a bit of OpenLayers, GDAL/OGR and the Python geo-ecosystem GeoPandas et al. For backend WMS servers, we typically work with Mapserver/Apache. I also work with Desktop tools like QGIS, and ESRI if I have to.
+</p>
+    
+<p>Oh, and Geoserver has my attention again. We are likely recommending GeoServer to a client who wants &quot;self service&quot; updates. The GeoServer admin is just about perfect for that. Plus i18n support. Just today I noticed a Gist I wrote 10 years ago about how to install GeoServer on a Digital Ocean droplet (remember those?). What comes around, goes around.   
 </p>
 
 <h2 class="fancy">Build</h2>
@@ -89,8 +95,8 @@
 <footer>Hello, I&#39;m the footer  © <span></span></footer>
 
 
-		<script type="module" data-sveltekit-hydrate="14d8w78">
-			import { start } from "./_app/immutable/start-ef9f506e.js";
+		<script type="module" data-sveltekit-hydrate="1b9nlw4">
+			import { start } from "./_app/immutable/start-fe6c758c.js";
 
 			start({
 				env: {},
@@ -104,7 +110,7 @@
 					form: null
 				},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="14d8w78"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="1b9nlw4"]').parentNode,
 				trailing_slash: "never"
 			});
 		</script>

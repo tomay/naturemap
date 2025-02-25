@@ -9,25 +9,28 @@
         <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
 
 		<!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 
 		<!-- Google fonts-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 
+		<!-- prismjs theme -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-dark.min.css" integrity="sha512-y6rcKLYkttB9ZUBaz0IsncWFo1VoqISrcMY6J1i6Nb9WB9jRrpll8zjt5e1/naZHyXFoR/1VlH72+2VJ1Uzh7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 		<meta http-equiv="content-security-policy" content="">
-		<link href="../_app/immutable/assets/_layout-366756b1.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-ef9f506e.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-edd1e24c.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-69556376.js">
+		<link href="../_app/immutable/assets/_layout-f78a6cd1.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-fe6c758c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-61f3cbe5.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-6972f9d0.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-b21cceae.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-5740d6e4.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-c7caed0b.js">
 		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-fb8e19e2.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-6d08a489.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-e4cbc256.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-7f5b7ce6.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page-9f613745.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-50a6a3ca.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-7b6919b0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-a86765ef.js">
 			
 	</head>
 	<body>
@@ -72,22 +75,22 @@
 <h2>How to fix it</h2>
 <p>Here are the primary pieces you should put in place:</p>
 <ol><li>Use a root font size of <code>16px</code>. Add this to <code>body</code>, <code>html</code> or the pseudo-selector <code>:root</code>, like so: </li></ol>
-<pre class="language-css"><!-- HTML_TAG_START --><code class="language-css">  <span class="token selector">:root</span> <span class="token punctuation">&#123;</span>
-    <span class="token property">font-size</span><span class="token punctuation">:</span> 16px<span class="token punctuation">;</span> 
-  <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<!-- HTML_TAG_START --><pre class="shiki poimandres" style="background-color:#1b1e28;color:#a6accd" tabindex="0"><code><span class="line"><span style="color:#E4F0FBD0;font-style:italic">  :</span><span style="color:#91B4D5;font-style:italic">root</span><span style="color:#A6ACCD"> &#123;</span></span>
+<span class="line"><span style="color:#ADD7FF">    font-size</span><span style="color:#A6ACCD">: </span><span style="color:#5DE4C7">16px</span><span style="color:#A6ACCD">; </span></span>
+<span class="line"><span style="color:#A6ACCD">  &#125;</span></span></code></pre><!-- HTML_TAG_END -->
 <ol start="2"><li>Everywhere else (probably, with the exception of borders, box-shadows, and importantly break points, see below), define units with <code>rem</code>, like so: </li></ol>
-<pre class="language-css"><!-- HTML_TAG_START --><code class="language-css">  <span class="token selector">.awesome-div</span> <span class="token punctuation">&#123;</span>
-    <span class="token property">font-size</span><span class="token punctuation">:</span> 1rem<span class="token punctuation">;</span> 
-    <span class="token property">margin-bottom</span><span class="token punctuation">:</span> 0.375rem<span class="token punctuation">;</span>
-    <span class="token property">margin-top</span><span class="token punctuation">:</span> 1rem<span class="token punctuation">;</span> 
-    <span class="token property">padding-left</span><span class="token punctuation">:</span> 0.375rem<span class="token punctuation">;</span>
-    <span class="token property">padding-right</span><span class="token punctuation">:</span> 0.375rem<span class="token punctuation">;</span>
-    <span class="token property">min-height</span><span class="token punctuation">:</span> 12rem<span class="token punctuation">;</span> 
-  <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<!-- HTML_TAG_START --><pre class="shiki poimandres" style="background-color:#1b1e28;color:#a6accd" tabindex="0"><code><span class="line"><span style="color:#E4F0FBD0;font-style:italic">  .</span><span style="color:#5FB3A1;font-style:italic">awesome-div</span><span style="color:#A6ACCD"> &#123;</span></span>
+<span class="line"><span style="color:#ADD7FF">    font-size</span><span style="color:#A6ACCD">: </span><span style="color:#5DE4C7">1rem</span><span style="color:#A6ACCD">; </span></span>
+<span class="line"><span style="color:#ADD7FF">    margin-bottom</span><span style="color:#A6ACCD">: </span><span style="color:#5DE4C7">0.375rem</span><span style="color:#A6ACCD">;</span></span>
+<span class="line"><span style="color:#ADD7FF">    margin-top</span><span style="color:#A6ACCD">: </span><span style="color:#5DE4C7">1rem</span><span style="color:#A6ACCD">; </span></span>
+<span class="line"><span style="color:#ADD7FF">    padding-left</span><span style="color:#A6ACCD">: </span><span style="color:#5DE4C7">0.375rem</span><span style="color:#A6ACCD">;</span></span>
+<span class="line"><span style="color:#ADD7FF">    padding-right</span><span style="color:#A6ACCD">: </span><span style="color:#5DE4C7">0.375rem</span><span style="color:#A6ACCD">;</span></span>
+<span class="line"><span style="color:#ADD7FF">    min-height</span><span style="color:#A6ACCD">: </span><span style="color:#5DE4C7">12rem</span><span style="color:#A6ACCD">; </span></span>
+<span class="line"><span style="color:#A6ACCD">  &#125;</span></span></code></pre><!-- HTML_TAG_END -->
 <ol start="3"><li>Testing how this responds to 2x font zoom is easy. Just open the console, and change root to: </li></ol>
-<pre class="language-css"><!-- HTML_TAG_START --><code class="language-css">  <span class="token selector">:root</span> <span class="token punctuation">&#123;</span>
-    <span class="token property">font-size</span><span class="token punctuation">:</span> 32px<span class="token punctuation">;</span> 
-  <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<!-- HTML_TAG_START --><pre class="shiki poimandres" style="background-color:#1b1e28;color:#a6accd" tabindex="0"><code><span class="line"><span style="color:#E4F0FBD0;font-style:italic">  :</span><span style="color:#91B4D5;font-style:italic">root</span><span style="color:#A6ACCD"> &#123;</span></span>
+<span class="line"><span style="color:#ADD7FF">    font-size</span><span style="color:#A6ACCD">: </span><span style="color:#5DE4C7">32px</span><span style="color:#A6ACCD">; </span></span>
+<span class="line"><span style="color:#A6ACCD">  &#125;</span></span></code></pre><!-- HTML_TAG_END -->
 <p>I recommend going ahead and using <code>rem</code> for everthing, to base sizes relative to the root of <code>16px</code>. You could also mix in <code>em</code> if you have a need to do so, as long as some parent is defined in <code>rem</code>. </p>
 <p>Everything should be good to go, except that it might be ugly. Especially if you haven’t defined breakpoints in <code>em</code> or <code>rem</code>. </p>
 <p>Bootstrap 4 introduced <code>rem</code> and <code>em</code> units for almost everything in the release of BS 4. Interestingly, though, they did not extend this to the grid, and that was[] on purpose](<a href="https://getbootstrap.com/docs/4.6/layout/grid/#grid-options" rel="nofollow">https://getbootstrap.com/docs/4.6/layout/grid/#grid-options</a>):</p>
@@ -99,8 +102,8 @@
 <footer>Hello, I&#39;m the footer  © <span></span></footer>
 
 
-		<script type="module" data-sveltekit-hydrate="1w21xp">
-			import { start } from "../_app/immutable/start-ef9f506e.js";
+		<script type="module" data-sveltekit-hydrate="1i06jfo">
+			import { start } from "../_app/immutable/start-fe6c758c.js";
 
 			start({
 				env: {},
@@ -114,7 +117,7 @@
 					form: null
 				},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1w21xp"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="1i06jfo"]').parentNode,
 				trailing_slash: "never"
 			});
 		</script>
