@@ -21,16 +21,16 @@
 
 		<meta http-equiv="content-security-policy" content="">
 		<link href="../_app/immutable/assets/_layout-f78a6cd1.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-efdeb85b.js">
+		<link rel="modulepreload" href="../_app/immutable/start-e42b82cd.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index-61f3cbe5.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-7002468e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-62633b6d.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-b21cceae.js">
 		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-c7caed0b.js">
 		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-fb8e19e2.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-6d08a489.js">
 		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-50a6a3ca.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-285ec627.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page-cc81683d.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-d776b50e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-58883dbd.js">
 			
 	</head>
 	<body>
@@ -87,17 +87,18 @@
 <blockquote><p>The first part is the short description to identify the image and, where appropriate, indicate the location of the long description. The second part is the long description – <strong>a textual representation of the essential information conveyed by the image</strong>. The following examples show different approaches that can be used to provide such short and long descriptions.</p></blockquote>
 <p>There are no maps in that example (or any examples I can find), but let’s continue on anyway. Imagine a simple interactive map, say a choropleth showing the counties of the United States, with 5 contrast and color blind compliant colors. The map can be panned and zoomed from say z4 (1:36M) to z12 (1:144K). There is of course a basemap (there always is), and there are labels that adapt (show different things) at different zoom levels. </p>
 <p>How are we to craft a dynamic long description that provides a comparable text-based alternative to the visual experience a sighted person derives from the map?</p>
-<p>We do have a few options. We can ignore the the basemap and labels, and argue incidental to most relevant information that the map is meant to convey (not essential information, per WCAG). And then we could, for example desribe what we see in the viewport at each zoom level. State X has color 1, State Y has color 2, and so on. This could be automated without too much difficulty. This could even be provided as text in a table (although it’s hard to find direct recommendations in WCAG or anywhere else that this is what you are supposed to do). </p>
-<p>But have we achieved accessibility? Is a desription or tabular presentation of the data in this way truly cmoparable to what sighted users get from the same map? I think immediately of patterns that a map provides. A concentration of values in certain areas or regions of the map, and a paucity of values in other areas. Adjacency of colors in some areas, sharp contrast in othrers. This is also part of what the map “says”, and how can we achieve that with text, in an automated way, across all possible views? </p>
+<p>We do have a few options. We can ignore the the basemap and labels, and argue incidental to most relevant information that the map is meant to convey (not “essential information”, per WCAG). </p>
+<p>And then we could, for example, desribe what we see in the viewport at each zoom level. State X has color 1, State Y has color 2, and so on. This could be automated without too much difficulty. This could even be provided as a long description. Or it could be provided in tabular form, in compliant HTML tables, or as downloads (although it’s hard to find direct recommendations in WCAG or anywhere else that this is what you are supposed to do). </p>
+<p>But have we achieved accessibility? Is a desription or tabular presentation of the data in this way truly cmoparable to what sighted users get from the same map? I think immediately of the visual patterns that even the most basic map provides. A concentration of values in certain areas or regions of the map, and a paucity of values in other areas. Adjacency of similar gradients colors in some areas, sharp contrast in others areas. This is also part of what the map “says”, and how can we achieve that with text, in an automated way, across all possible views? </p>
 <h2>What is the way forward?</h2>
 <p>I honestly do not know. What I do know is that the existing treatments and solutions, e.g. short and long-descriptions seem wholly inadquate.</p>
-<p>It would be great if WCAG had additional resources that address this, perhaps by splitting maps out of the “complex image” trap entirely, into their own separate category. What shape this takes, how we actually achieve map accessibility, remains to be determined. </p></article></article></main>
+<p>It would be great if WCAG had additional resources that address this directly for <em>interactive web maps</em>, perhaps by splitting maps out of the “complex image” trap entirely, into their own separate category, with advice and examples to match. What shape this takes, how we actually achieve map accessibility, remains to be determined. </p></article></article></main>
 
 <footer>Hello, I&#39;m the footer  © <span></span></footer>
 
 
-		<script type="module" data-sveltekit-hydrate="2ghcb3">
-			import { start } from "../_app/immutable/start-efdeb85b.js";
+		<script type="module" data-sveltekit-hydrate="1xh60t">
+			import { start } from "../_app/immutable/start-e42b82cd.js";
 
 			start({
 				env: {},
@@ -111,7 +112,7 @@
 					form: null
 				},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="2ghcb3"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="1xh60t"]').parentNode,
 				trailing_slash: "never"
 			});
 		</script>
