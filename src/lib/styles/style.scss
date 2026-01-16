@@ -55,8 +55,13 @@ p.big-p {
 
 h2.fancy {
   box-shadow: -20px 5px 0px 0px #ffc800;
-  padding-left: 0.5em;
+  padding-left: 0.75rem;
   margin-left: 0.85rem;
+
+  @media screen and (max-width: 600px) {
+    padding-left: 0.5rem;
+  }
+
 }
 
 .content {
@@ -67,6 +72,11 @@ main {
   padding: 1rem;
   margin: 2rem;
   max-width: 40rem;
+
+  @media screen and (max-width: 600px) {
+    margin: 0.7rem;
+  }
+
 }
 
 footer {

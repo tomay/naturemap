@@ -2,7 +2,7 @@
 <h1>Work</h1>
 
 <p>
-    Work-wise, my main interests are maps, data visualization, web development and programming.  
+    Work-wise, my main interests are maps, data visualization, web development and programming, especially in service of conservation and sustainability.  
 </p>
 
 <h2 class="fancy">Frontend</h2>
@@ -35,8 +35,15 @@
     Oh, and Geoserver has my attention again. We are likely recommending GeoServer to a client who wants "self service" updates. The GeoServer admin is just about perfect for that. Plus i18n support. Just today I noticed a Gist I wrote 10 years ago about how to install GeoServer on a Digital Ocean droplet (remember those?). What comes around, goes around.   
 </p>
 
-<h2 class="fancy">Build</h2>
+<h2 class="fancy">Build and DevOps</h2>
 
 <p>
-    In terms of build and devops, I've worked with Docker, Webpack, Parcel, and Vite for local development of frontend and full stack Django applications. I have scratched the surface of all that AWS offers. A lot more to learn here.  
+    I routinely work with setups that include Docker, Docker compose, Vite and Webpack for local development of frontend and full stack Django and PHP applications. I have experience deploying to AWS (EC2, S3, RDS, IAM). I have a solid understanding of CI/CD pipelines using GitHub Actions.
 </p>
+
+<h2 class="fancy">Certifications</h2>
+
+    <ul>
+        <li>AWS Certified Cloud Practitioner (2025)</li>
+        <li>AWS Certified Solutions Architect – Associate (2026) <em>in progress</em></li>
+    </ul>

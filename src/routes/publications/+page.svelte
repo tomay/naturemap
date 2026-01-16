@@ -4,7 +4,7 @@
 
 <ul>
   <li>Burivalova, Z., Allnutt, T.F., Rademacher, D., Schlemm, A., Wilcove, D.S., Butler. R.A. 2019. What works in tropical forest conservation, and what does not: Effectiveness of four strategies in terms of environmental, social, and economic outcomes. Conservation Science and Practice 1(6):e28.  </li>
-  <li>Merrill, B.M., Allnutt, T.F., Baskett, M.L., Watson, R.A., Lagabrielle, E., Kremen, C. 2019. Rethinking spatial costs and benefits of marine protected areas. In review of fisheries in marine conservation. Ocean and Coastal Management Vol. 178. https://doi.org/10.1016/j.ocecoaman.2019.104824 </li>
+  <li>Merrill, B.M., Allnutt, T.F., Baskett, M.L., Watson, R.A., Lagabrielle, E., Kremen, C. 2019. Rethinking spatial costs and benefits of marine protected areas. In review of fisheries in marine conservation. <a href="https://doi.org/10.1016/j.ocecoaman.2019.104824">Ocean and Coastal Management Vol. 178:104824</a>.</li>
   <li>Vieilledent, G., Grinand, C., Rakotomalala, F.A., Ranaivosoa, R., Rakotoarijaona, J-R., Allnutt, T.F., Achard, F. 2018. Combining global tree cover loss data with historical national forest cover maps to look at six decades of deforestation and forest fragmentation in Madagascar. Biological Conservation 222:189-197.</li>
   <li>Allnutt, T.F., G.P. Asner, C. Golden, G. V. N. Powell. 2013. Mapping recent deforestation and forest disturbance in northeastern Madagascar. Tropical Conservation Science Vol. 6(1):1-15.</li>
   <li>Allnutt, T.F., T. R. McClanahan, M. Baker, E. Lagabrielle, C. McClennen, A. Rakotomanjaka, T. Tianarisoa, R. Watson, C. Kremen. 2012. Comparison of marine spatial planning methods in Madagascar demonstrates value of alternative approaches. PLoS ONE 7(2): e28969. doi:10.1371/journal.pone.0028969</li>
@@ -25,9 +25,9 @@
 </ul>
 
 <ul class="smaller-font">
-  <li class="no-margin">Citations: 15,272</li>
-  <li class="no-margin">h-index: 19</li>
-  <li class="no-margin">i10-index: 26</li>
+  <li class="no-margin">Citations: 14,442</li>
+  <li class="no-margin">h-index: 20</li>
+  <li class="no-margin">i10-index: 29</li>
 </ul>
 
 <style>
