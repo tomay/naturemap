@@ -21,16 +21,16 @@
 
 		<meta http-equiv="content-security-policy" content="">
 		<link href="../_app/immutable/assets/_layout-f78a6cd1.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-527f9bf8.js">
+		<link rel="modulepreload" href="../_app/immutable/start-4ef1742e.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index-61f3cbe5.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-8c2d39df.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-34e6f714.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-b21cceae.js">
 		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-c7caed0b.js">
 		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-fb8e19e2.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-6d08a489.js">
 		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-50a6a3ca.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-4ab74181.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page-a7bd2c55.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-ab8e8453.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-c72a5311.js">
 			
 	</head>
 	<body>
@@ -63,24 +63,41 @@
 
   
   <article><h1>Accessible Maps part 2 of infinity</h1>
-    <p>Published: January 15, 2025</p>
+    <p>Published: January 15, 2026</p>
     
 
     
 <article><h2>Interactive Map: Are they simply complex images?</h2>
 <p>In a previous post I asked “How can we make interactive maps that are more accessible”. </p>
-<p>We still struggle with this at work, and arguably on the internet at large. Even the biggest players, in my view, simply punt on this. ESRI tools are allegedly comformant to per WCAG, US Section 508, and EN 301 549 standards. Or as they [https://www.esri.com/arcgis-blog/products/arcgis/mapping/mapping-the-way-to-digital-accessibility](put it) “Accessibility is an ongoing effort”. </p>
-<p>But I can take a random example, in this case a [https://experience.arcgis.com/experience/df36d88209d9458bbd5ecf85515de827](map from the ArcGIS Experience Builder Project Gallery), and find a host of errors, <em>even without considering the map</em>:</p>
+<p>We still struggle with this at work, and arguably on the internet at large. Even the biggest players, in my view, simply punt on this. ESRI tools are allegedly comformant to per WCAG, US Section 508, and EN 301 549 standards. Or as they <a href="https://www.esri.com/arcgis-blog/products/arcgis/mapping/mapping-the-way-to-digital-accessibility" rel="nofollow">put it</a> “Accessibility is an ongoing effort”. </p>
+<p>But I can take a random example, in this case a <a href="https://experience.arcgis.com/experience/df36d88209d9458bbd5ecf85515de827" rel="nofollow">map from the ArcGIS Experience Builder Project Gallery</a>, and find a host of errors, <em>even without considering the map</em>:</p>
 <ul><li>The big button at top right has contrast errors that fail at WCAG AA</li>
 <li>There is no heading structure (the main page title is a <code>&lt;p&gt;</code>)</li>
 <li>There is audio provided without transcription</li></ul>
-<p>Some of this is due to user configuration of the underlying tool. And sure, anyone could probably reivew my website and find issues. But I’m not a billion dollar company. </p></article></article></main>
+<p>Some of this is likely due to user configuration of the underlying tool. And sure, anyone could probably reivew my website and find issues. But also, I’m not a billion dollar company. And I’m not claiming accessibility compliance.</p>
+<p>Anyhow, enough ranting about what’s wrong with other people’s maps. How do we do better with our own? </p>
+<h3>Maps = Complex Images, or do they?</h3>
+<p>As noted in the previous post, if you search WCAG and try to find the thing that most closely fits an interactive map, most people would argue this has to be <a href="https://www.w3.org/WAI/tutorials/images/complex/" rel="nofollow">“complex image”</a></p>
+<p>But this is inadequate on many levels</p>
+<ul><li>A map is not strictly an image, especially an interactive map</li>
+<li>A interactive map is also not a chart, although they share some characteristics</li>
+<li>An interactive map is really a category unto itself, it is neither an image nor a chart</li></ul>
+<p>Let’s say we stop here and go with the idea that we can treat an interactive map as a complex image. The general advice in that case is to provide a short and a long description, and we’re done. </p>
+<p>From the <a href="https://www.w3.org/WAI/tutorials/images/complex/" rel="nofollow">WAI complex image tutorial</a>: </p>
+<blockquote><p>The first part is the short description to identify the image and, where appropriate, indicate the location of the long description. The second part is the long description – a textual representation of the essential information conveyed by the image. The following examples show different approaches that can be used to provide such short and long descriptions.</p></blockquote>
+<p>There are no maps in that example (or any examples I can find), but let’s continue on anyway. Imagine a simple interactive map, say a choropleth showing the counties of the United States, with 5 contrast and color blind compliant colors. The map can be panned and zoomed from say z4 (1:36M) to z12 (1:144K). There is of course a basemap (there always is), and there are labels that adapt (show different things) at different zoom levels. </p>
+<p>How are we to craft a dynamic long description that provides a comparable text-based alternative to the visual experience a sighted person derives from the map?</p>
+<p>We do have a few options. We can ignore the the basemap and labels, and argue incidental to most relevant information that the map is meant to convey. And then we could, for example desribe what we see in the viewport at each zoom level. State X has color 1, State Y has color 2, and so on. This could be automated without too much difficulty. This could even be provided as text in a table (although it’s hard to find direct recommendations in WCAG or anywhere else that this is what you are supposed to do). </p>
+<p>But have we achieved accessibility? Is a desription or tabular presentation of the data in this way truly cmoparable to what sighted users get from the same map? I think immediately of patterns that a map provides. A concentration of values in certain areas or regions of the map, and a paucity of values in other areas. Adjacency of colors in some areas, sharp contrast in othrers. This is also part of what the map “says”, and how can we achieve that with text, in an automated way, across all possible views? </p>
+<h2>What is the way forward?</h2>
+<p>I honestly do not know. What I do know is that the existing treatments and solutions, e.g. short and long-descriptions seem wholly inadquate.</p>
+<p>It would be great if WCAG had additional resources that address this, perhaps by splitting maps out of the “complex image” trap entirely, into their own separate category. What shape this takes, how we actually achieve map accessibility, remains to be determined. </p></article></article></main>
 
 <footer>Hello, I&#39;m the footer  © <span></span></footer>
 
 
-		<script type="module" data-sveltekit-hydrate="h2bq06">
-			import { start } from "../_app/immutable/start-527f9bf8.js";
+		<script type="module" data-sveltekit-hydrate="1q6gbb1">
+			import { start } from "../_app/immutable/start-4ef1742e.js";
 
 			start({
 				env: {},
@@ -94,7 +111,7 @@
 					form: null
 				},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="h2bq06"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="1q6gbb1"]').parentNode,
 				trailing_slash: "never"
 			});
 		</script>
