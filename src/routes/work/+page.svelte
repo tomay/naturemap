@@ -43,7 +43,8 @@
 
 <h2 class="fancy">Certifications</h2>
 
-    <ul>
-        <li>AWS Certified Cloud Practitioner (2025)</li>
-        <li>AWS Certified Solutions Architect – Associate (2026) <em>in progress</em></li>
-    </ul>
+<ul>
+    <li>AWS Certified Cloud Practitioner (2025)</li>
+    <li>AWS Certified Solutions Architect – Associate (2026) <em>in progress</em></li>
+</ul>
+
