@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.ico" />
+		<link rel="icon" href="../favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 
         <title>Naturemap</title>
@@ -20,15 +20,17 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-dark.min.css" integrity="sha512-y6rcKLYkttB9ZUBaz0IsncWFo1VoqISrcMY6J1i6Nb9WB9jRrpll8zjt5e1/naZHyXFoR/1VlH72+2VJ1Uzh7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-eb05be5a.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-caa7cebb.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-61f3cbe5.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-749f7956.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper-b21cceae.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-c7caed0b.js">
-		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-fb8e19e2.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-6d08a489.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-62adc68c.js">
+		<link href="../_app/immutable/assets/_layout-eb05be5a.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-caa7cebb.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-61f3cbe5.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-749f7956.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-b21cceae.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-c7caed0b.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-fb8e19e2.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-6d08a489.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-50a6a3ca.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-13a76066.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-68a8cf55.js">
 			
 	</head>
 	<body>
@@ -57,37 +59,40 @@
 
   
 
-<main class="content"><h1>Home</h1>
+<main class="content">
 
-<p class="big-p">👋</p>
+  
+  <article><h1>Accessible Maps part 2 of infinity</h1>
+    <p>Published: August 6, 2026</p>
+    
 
-<p>I&#39;m Tom. I am a web developer, geographer, spatial data scientist, and lifelong nature nerd.</p>
-
-<p>This website is meant to highlight some of my work and interests. Like me, it is a work in progress.</p>
-
-<p>I&#39;m also using this to learn more about <a href="https://svelte.dev">svelte</a> and <a href="https://kit.svelte.dev">svelte-kit</a>, which so far seem pretty great.</p>
-
-<p>Read more <a href="/about">about me</a>, <a href="/work">my work</a>, or check out <a href="/blog">my blog</a>.</p></main>
+    
+<article><h2>Forest cover mapping, what is the state of the art?</h2>
+<p>It’s been a long time since I first started working with satellite data for forest cover mapping.Recently, I’ve been diving into remote sensing products again, with an eye on Madagascar. There are so many exciting things happening in recent years, and I’m just starting to catch up. A few things stand out: </p>
+<ul><li>Sentinel-2 Leval 2A: freely available, relatively high resolution, orthorectified, radiometrically and atmospherically corrected. And there are cloud free composites*</li>
+<li>Machine learning: All new to me, but there are many Python implementations of neural network architectures like U-Net (PyTorch). At the end of the day, this “feels” similar to old-school supervised classification, but the underlying implementation is completely different</li></ul>
+<p>The (cloud free products)[https://dataspace.copernicus.eu/news/2024-2-27-exploring-new-frontier-sentinel-cloudless-mosaics-copernicus-data-space-ecosystem] for the tropics are a little dissapointing, so far…</p>
+<p>So much more to say</p></article></article></main>
 
 <footer>Hello, I&#39;m the footer  © <span></span></footer>
 
 
-		<script type="module" data-sveltekit-hydrate="1sfp2sx">
-			import { start } from "./_app/immutable/start-caa7cebb.js";
+		<script type="module" data-sveltekit-hydrate="e0b5vn">
+			import { start } from "../_app/immutable/start-caa7cebb.js";
 
 			start({
 				env: {},
 				hydrate: {
 					status: 200,
 					error: null,
-					node_ids: [0, 2],
-					params: {},
-					routeId: "/",
+					node_ids: [0, 5],
+					params: {slug:"6"},
+					routeId: "/blog/[slug]",
 					data: [null,null],
 					form: null
 				},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1sfp2sx"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="e0b5vn"]').parentNode,
 				trailing_slash: "never"
 			});
 		</script>
